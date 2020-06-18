@@ -2,6 +2,7 @@
 	"name": "banano-uri-generator",
 	"version": "0.1.0",
 	"description": "Generates Banano URIs for sending amounts, changing representatives, and more",
+    "author": "Stoyan Zhekov <zh@zhware.net>",
 	"source": "src/index.ts",
 	"types": "dist/index.d.ts",
 	"main": "dist/banano-uri-generator.js",
