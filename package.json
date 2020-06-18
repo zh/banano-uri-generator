@@ -1,0 +1,48 @@
+{
+	"name": "banano-uri-generator",
+	"version": "0.1.0",
+	"description": "Generates Banano URIs for sending amounts, changing representatives, and more",
+	"source": "src/index.ts",
+	"types": "dist/index.d.ts",
+	"main": "dist/banano-uri-generator.js",
+	"umd:main": "dist/banano-uri-generator.umd.js",
+	"module": "dist/banano-uri-generator.m.js",
+	"files": [
+		"src",
+		"dist"
+	],
+	"scripts": {
+		"test": "mocha",
+		"lint": "eslint src --ext .ts",
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zh/banano-uri-generator.git"
+	},
+	"keywords": [
+		"banano",
+		"uri",
+		"generator",
+		"generation",
+		"cryptocurrency"
+	],
+	"author": "Stoyan Zhekov",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zh/banano-uri-generator/issues"
+	},
+	"homepage": "https://github.com/zh/banano-uri-generator",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^3.3.0",
+		"@typescript-eslint/parser": "^3.3.0",
+		"chai": "^4.2.0",
+		"eslint": "^7.2.0",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-plugin-import": "^2.21.2",
+		"microbundle": "^0.12.1",
+		"mocha": "^8.0.1",
+		"typescript": "^3.9.5"
+	}
+}
